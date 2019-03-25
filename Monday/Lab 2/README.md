@@ -24,7 +24,11 @@ Use different browsers and/or in-private-icognito browser sessions to test loggi
 
 ### Command syntax for running the script:
 
-/home/<your username>/New-CustomRbacRole.ps1 -SubscriptionId <YOUR SUBSCRIPTION ID>
+Get your subscription id:
+Get-AzSubscription
+
+Run the script:
+/home/your-username-goes-here/New-CustomRbacRole.ps1 -SubscriptionId your-subscription-id-goes-here
   
 ### Notes:
 
