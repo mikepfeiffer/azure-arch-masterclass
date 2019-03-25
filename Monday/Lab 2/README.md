@@ -24,7 +24,7 @@ Use different browsers and/or in-private-icognito browser sessions to test loggi
 
 ### Command syntax for running the script:
 
-/home/azuremasters2/New-CustomRbacRole.ps1 -SubscriptionId <YOUR SUBSCRIPTION ID>
+/home/<your username>/New-CustomRbacRole.ps1 -SubscriptionId <YOUR SUBSCRIPTION ID>
   
 ### Notes:
 
