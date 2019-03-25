@@ -22,6 +22,10 @@ Now sign into the portal using the general Azure AD account that is a member of 
 
 Use different browsers and/or in-private-icognito browser sessions to test logging into the Azure AD portal as different users.
 
+### Command syntax for running the script:
+
+/home/azuremasters2/New-CustomRbacRole.ps1 -SubscriptionId <YOUR SUBSCRIPTION ID>
+  
 ### Notes:
 
 Understanding Resource Access in Azure
