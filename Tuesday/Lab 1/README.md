@@ -1,4 +1,4 @@
-# Lab 5 - Deploying Azure AD Application Proxy
+# Lab 1 - Deploying Azure AD Application Proxy
 
 1. Navigate to Enterprise Applications > Application Proxy in the AAD portal
 2. Enable Application proxy for your AAD tenant
