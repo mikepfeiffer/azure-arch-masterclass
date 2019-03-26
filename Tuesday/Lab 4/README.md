@@ -1,4 +1,4 @@
-# Lab 2 - Working with Virtual Machine Storage
+# Lab 4 - Working with Virtual Machine Storage
 
 Create a VM with *UN-MANAGED* storage:
 
