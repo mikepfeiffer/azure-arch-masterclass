@@ -1,4 +1,4 @@
-# Lab 1 - Create Web Servers Running in Azure
+# Lab 3 - Create Web Servers Running in Azure
 
 1. Use the Azure portal to launch a Windows Server and Ubuntu Server
 2. Install IIS on your Windows VM (e.g. *Install-WindowsFeature web-server*)
