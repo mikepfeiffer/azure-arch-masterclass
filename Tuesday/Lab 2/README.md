@@ -1,4 +1,4 @@
-# Lab 6 - Conditional Access & Azure MFA
+# Lab 2 - Conditional Access & Azure MFA
 
 1. Navigate to the Azure AD portal and into Conditional Access (under Security)
 2. Create a "Named Location" called "on-prem" and configure a custom address range using your own public IP address
