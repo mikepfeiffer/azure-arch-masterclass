@@ -1,4 +1,4 @@
-# Lab 2 - Geo-route incoming traffic to your Azure Web App
+# Lab 6 - Geo-route incoming traffic to your Azure Web App
 
 Create two Azure Web Apps:
 
