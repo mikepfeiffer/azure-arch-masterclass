@@ -1,6 +1,6 @@
 # Lab 1 - Deploy a Load Balancer on Azure
 
-1. Launch the load balancer ARM template from [here](https://github.com/AzureInterface/quickstart/tree/master/azure-load-balancer)
+1. Launch the load balancer ARM template from [here](https://github.com/AzureInterface/quickstart/tree/master/azure-load-balancer) Note: The VM types in the template may not be available in your Azure Pass. You can edit the template during launch to use the Standard_B2s VM size.
 2. Verify you can connect remotely via NAT rules
 3. Set up a basic web server / web page on each VM
 4. Create a HTTP probe for the load balancer
