@@ -8,10 +8,6 @@
 6. Verfiy that your on-prem users are showing up in AAD after the intial sync
 7. Trying signing into the Azure portal with an on-prem users credentials
 
-### Tips:
-
-If you forgot to use your custom domain name for the AD forest, you can add a new UPN suffix in Active Directory Domains and Trusts. Make sure the users you are trying to sync have a UPN under the same domain you have registered in AAD.
-
 ### Notes:
 
 What is hybrid identity?
