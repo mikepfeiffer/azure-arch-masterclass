@@ -4,7 +4,7 @@
 2. Create an Ubuntu 18.04 virtual machine inside a resource group called "Servers"
 3. Create a group in Azure AD called "VM Admins"
 4. Add your new Azure AD account to the VM Admins group
-5. Use role based access control to give the VM Admins group explicit permissions to the "Servers" resource group. Assign the "VM Contributor Role" to the VM Admins group
+5. Use role based access control to give the VM Admins group explicit permissions to the "Servers" resource group. Assign the "Virtual Machine Contributor" role to the VM Admins group
 6. Sign into the portal as your new Azure AD user. Validate that youcan only perform basic management tasks on VMs in the Servers resource group. Try to create a new resource group. Does it work?
 
 ### Extra Credit:
