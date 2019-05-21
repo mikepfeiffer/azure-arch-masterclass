@@ -4,7 +4,7 @@
 2. Enable Application proxy for your AAD tenant
 3. Deploy a Windows Server 2016 VM in the same VNET as your Linux Server ("Servers" resource group)
 4. Install the application proxy connector on the Windows server
-5. Install apache on the Linux server (hint: ssh to the server and run apt-get install apache2)
+5. Install apache on the Linux server (hint: ssh to the server and run sudo apt-get install apache2)
 6. Create and publish a new app in the Application proxy section of the AAD portal. The goal is to reach the Apache welcome page on the Linux server through the Application proxy
 6. Add permissions to a synced user or group from on-prem AD and grant access to the app
 7. Navigate to the external url for your enterprise application and verify that you can sign in
