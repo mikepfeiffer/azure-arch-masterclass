@@ -1,14 +1,12 @@
 # Lab 1 - Deploying Azure AD Application Proxy
 
-1. Navigate to Enterprise Applications > Application Proxy in the AAD portal
-2. Enable Application proxy for your AAD tenant
-3. Deploy a Windows Server 2016 VM in the same VNET as your Linux Server ("Servers" resource group)
-4. Install the application proxy connector on the Windows server
-5. Install apache on the Linux server (hint: ssh to the server and run sudo apt-get install apache2)
-6. Create and publish a new app in the Application proxy section of the AAD portal. The goal is to reach the Apache welcome page on the Linux server through the Application proxy
-6. Add permissions to a synced user or group from on-prem AD and grant access to the app
-7. Navigate to the external url for your enterprise application and verify that you can sign in
-8. Navigate to myapps.microsoft.com as the same user and ensure that your custom application is available on the screen
+1. Deploy a Windows Server 2016 VM and a Linux Server in the same VNET (you can use your AD VM if you still have it)
+2. Install the application proxy connector on the Windows server
+3. Install apache on the Linux server (hint: ssh to the server and run sudo apt-get install apache2)
+4. Create and publish a new app in the Application proxy section of the AAD portal. The goal is to reach the Apache welcome page on the Linux server through the Application proxy
+5. Add permissions to a synced user or group from on-prem AD and grant access to the app
+6. Navigate to the external url for your enterprise application and verify that you can sign in
+7. Navigate to myapps.microsoft.com as the same user and ensure that your custom application is available on the screen
 
 
 ### Notes:
