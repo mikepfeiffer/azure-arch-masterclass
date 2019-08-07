@@ -1,4 +1,4 @@
-# Lab 1 - Blue-green Deployments with Azure Web Apps and Deployment Slots
+# Lab 5 - Blue-green Deployments with Azure Web Apps and Deployment Slots
 
 Deploy a Web App to Azure:
 
