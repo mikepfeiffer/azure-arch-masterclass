@@ -1,7 +1,7 @@
 # Lab 4 - Configure Alerts Based on Metrics and Performance
 
 1. Launch (or resuse) a Windows Server 2016 virtual machine
-2. Navigate to the VM properties in the Azure Portal > Metrics > Monitoring
+2. Navigate to the VM properties in the Azure Portal > Monitoring > Metrics
 3. Select the 'Percentage CPU' metric for the VM, set the aggregation to 'Average'
 4. Click on the 'Create Alert Rule' button
 5. Configure the Alert Condition to fire when the average CPU utilization greater than or equal to 50%
