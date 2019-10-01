@@ -2,6 +2,7 @@
 
 1. Use the Azure portal to launch an Ubuntu Server
 2. Install Apache on your Ubuntu VM
+- ssh using cloud shell
 - sudo su
 - apt-get update
 - apt-get install apache2 -y
