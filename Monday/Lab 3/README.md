@@ -4,7 +4,7 @@
 2. RDP to the server and install the RSAT-ADDS module (Install-WindowsFeature rsat-adds)
 3. Download and execute the PowerShell script in this repo to create 20-50 dummy users in your on-prem AD forest. Make sure the users UPN is set to your custom domain registered in AAD
 4. Download and install Azure AD Connect Sync on your domain controller
-5. Deploy a custom configuration of Azure AD Connect Sync and explore the options available. Make sure you deploy password hash synchronization and password write back
+5. Deploy a custom configuration of Azure AD Connect Sync and explore the options available. Make sure you deploy password hash synchronization. Also make sure that your gloabl AAD user is not a Microsoft account, and that you create a new service account when authenticating to the local directory.
 6. Verfiy that your on-prem users are showing up in AAD after the intial sync
 7. Trying signing into the Azure portal with an on-prem users credentials
 
@@ -21,4 +21,7 @@ What is password hash synchronization with Azure AD?
 
 Tutorial: Integrate a single AD forest using password hash sync (PHS)
 * https://docs.microsoft.com/en-us/azure/active-directory/hybrid/tutorial-password-hash-sync
+
+Azure AD Connect: Accounts and permissions
+* https://docs.microsoft.com/en-us/azure/active-directory/hybrid/reference-connect-accounts-permissions
 
