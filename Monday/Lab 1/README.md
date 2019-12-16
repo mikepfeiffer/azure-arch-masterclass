@@ -2,8 +2,7 @@
 
 1. Sign into the Azure AD portal (https://aad.portal.azure.com)
 2. Active a free trial for Azure AD premium (main dashboard of the Azure AD portal)
-3. ~~Add a custom domain name to your directory (make it primary)~~
-4. Startup and initialize your Cloud Shell environment
+3. Startup and initialize your Cloud Shell environment
 
 ### Notes:
 
