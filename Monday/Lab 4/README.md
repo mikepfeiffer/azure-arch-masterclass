@@ -1,6 +1,6 @@
 # Lab 4 - Setup Self Service Password Reset
 
-1. Configure the Password Reset options for your AAD tenant. Enable password reset for all users and enable password write back
+1. Configure the Password Reset options for your AAD tenant. Enable password reset for all users and enable password write back in Azure AD Connect
 2. Start a private browser session and navigate to https://myapps.microsoft.com/. Sign in as the user from step 2
 3. Reset the users password in the cloud
 4. Validate password write back. (hint: you can do this by authenticating to a domain joined machine in your on-prem environment)
