@@ -9,6 +9,7 @@
 
 Windows PowerShell Desired State Configuration Overview
 * https://msdn.microsoft.com/en-us/powershell/dsc/overview
+* https://docs.microsoft.com/en-us/powershell/scripting/dsc/overview/overview?view=powershell-6
 
 PowerShell Gallery - xWebAdministration
 * https://www.powershellgallery.com/packages/xWebAdministration/1.17.0.0
