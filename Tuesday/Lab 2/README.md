@@ -3,8 +3,8 @@
 1. Navigate to the Azure AD portal and into Conditional Access (under Security)
 2. Create a "Named Location" called "on-prem" and configure a custom address range using your own public IP address
 2. Create a new conditional access policy
-3. Assign the policy to one of your sync'd AD users
-4. Select your custom web app on the Linux server as the cloud app for this policy
+3. Assign the policy to one of your sync'd AD users (or you can use a cloud-only user you've created)
+4. Select your custom web app on the Linux server as the cloud app for this policy (you can use another app like "Azure Management" if needed)
 5. Configure the conditions so that the policy applies to your on-prem location
 6. Configure the access controls so that grant access and require multi-factor auth are enabled
 7. Enable and test the policy. Does it do what you expected? Modify the Named Location trusted IPs to verify your settings are being enforced
