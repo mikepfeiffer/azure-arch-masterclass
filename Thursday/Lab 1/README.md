@@ -16,3 +16,6 @@ Azure Load Balancer overview
 
 Creating an Internet-facing load balancer using the Azure portal
 * https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-get-started-internet-portal
+
+Install IIS
+* https://docs.microsoft.com/en-us/windows-server/networking/core-network-guide/cncg/server-certs/install-the-web-server-web1
